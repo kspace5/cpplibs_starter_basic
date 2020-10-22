@@ -1,0 +1,6 @@
+[submodule "cpplib_xyc01_shared"]
+	path = cpplib_xyc01_shared
+	url = https://github.com/krexspace/cpplib_xyc01_shared.git
+[submodule "cpplib_abc01_static"]
+	path = cpplib_abc01_static
+	url = https://github.com/krexspace/cpplib_abc01_static.git
