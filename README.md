@@ -22,6 +22,7 @@ This is the easiest way to build and run. You don't even need to run CMake 'conf
 Just open root folder, set the right CMake active kit, build and run. It should build all libs and run the executable.
 
 ### Linux Build
+Simple steps:  
 mkdir build  
 cd build  
 ../build_linux.sh  
