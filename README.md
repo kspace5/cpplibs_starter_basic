@@ -34,5 +34,5 @@ Simple steps:
 mk build  
 build_*.cmd  
 
-### Mingw64 in Windows 
+### Mingw64 and Cygwin in Windows 
 Just run the exe built in Windows. The exe and dll should work in Mingw as well.
