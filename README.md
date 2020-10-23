@@ -9,7 +9,7 @@ git clone --recursive [URL to Git repo]
 ### Update - Downloading multiple submodules at once
 If there are nested submodules:  
 git submodule update --init --recursive
-### Pull
+### Pull -  Pulling with submodules
 pull all changes in the repo including changes in the submodules  
 git pull --recurse-submodules
 
