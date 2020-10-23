@@ -97,3 +97,7 @@ ENV/
 # Based on CMAKE output setttings
 bin/
 lib/
+
+.vscode/
+.vs/
+CMakeSettings.json
