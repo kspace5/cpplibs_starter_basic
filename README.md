@@ -37,7 +37,7 @@ Simple steps:
 mk build  
 build_*.cmd
 
-Commandline build solution:  
+Build solution from the command line:  
 Example: Compile with Visual Studio 2017 (Add msbuild to path -> path=%path%;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\amd64)  
 
 msbuild abc.sln /property:Configuration=Release (or Debug)  
