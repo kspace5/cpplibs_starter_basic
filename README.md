@@ -5,7 +5,7 @@ Output executable and shared libs are in the bin folder.
 ## GIT
 Ref: https://www.vogella.com/tutorials/GitSubmodules/article.html
 ### Clone
-git clone --recursive [URL to Git repo]
+git clone --recursive https://github.com/krexspace/cpplibs_starter_basic.git
 ### Update - Downloading multiple submodules at once
 If there are nested submodules:  
 git submodule update --init --recursive
