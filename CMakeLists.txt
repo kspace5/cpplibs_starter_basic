@@ -20,7 +20,7 @@ find_library(protobuf NAMES libprotobuf PATHS ${CMAKE_CURRENT_SOURCE_DIR}/../grp
 message("find_library:${protobuf}:done")
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin/")
-set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/lib/")
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin/")
 
 # Add sub directories
 add_subdirectory (cpplib_abc01_static)
