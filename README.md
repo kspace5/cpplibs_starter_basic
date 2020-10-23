@@ -10,6 +10,9 @@ git clone --recursive https://github.com/krexspace/cpplibs_starter_basic.git
 If there are nested submodules:  
 git submodule update --init --recursive
 ### Pull -  Pulling with submodules
+git submodule foreach git pull origin main
+
+Note: The following is not working when main and not master in the primary branch in git.
 pull all changes in the repo including changes in the submodules  
 git pull --recurse-submodules
 
