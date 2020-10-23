@@ -2,7 +2,7 @@
 Basic CPP cmake with static and dynamic libs. Use this as a boilerplate to get started.
 Output executable and shared libs are in the bin folder.
 
-## GIT
+## GIT Tips
 Ref: https://www.vogella.com/tutorials/GitSubmodules/article.html
 ### Clone
 git clone --recursive https://github.com/krexspace/cpplibs_starter_basic.git
