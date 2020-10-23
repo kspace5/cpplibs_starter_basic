@@ -22,10 +22,17 @@ This is the easiest way to build and run. You don't even need to run CMake 'conf
 Just open root folder, set the right CMake active kit, build and run. It should build all libs and run the executable.
 
 ### Linux Build
+Cmake 3.10.2 does not have a -B<build dir> option. Solution is to upgrade to latest.  
+Ref: https://stackoverflow.com/questions/49859457/how-to-reinstall-the-latest-cmake-version
 Simple steps:  
 mkdir build  
 cd build  
 ../build_linux.sh  
+
+### Visual Studio 2019 - Steps to create a solution
+Simple steps:  
+mk build  
+build_*.cmd  
 
 
 
