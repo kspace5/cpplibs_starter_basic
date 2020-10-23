@@ -23,7 +23,7 @@ Just open root folder, set the right CMake active kit, build and run. It should 
 
 ### Linux Build
 Cmake 3.10.2 does not have a -B<build dir> option. Solution is to upgrade to latest.  
-Ref: https://stackoverflow.com/questions/49859457/how-to-reinstall-the-latest-cmake-version
+Ref: https://stackoverflow.com/questions/49859457/how-to-reinstall-the-latest-cmake-version  
 Simple steps:  
 mkdir build  
 cd build  
