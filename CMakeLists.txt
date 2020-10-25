@@ -10,14 +10,18 @@ project (${PROJECT_NAME})
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../sample_proto)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../grpc/include)
+include_directories(C:/KSPACE/204_SEASON/go_lab_starter)
+
 
 # find_library Syntax 
 # find_library(MYLIB NAMES name1 name2 PATHS dir1 dir2)
 # message(${MYLIB})
 
 # Find required external libraries
-find_library(protobuf NAMES libprotobuf PATHS ${CMAKE_CURRENT_SOURCE_DIR}/../grpc/build_win64/third_party/protobuf/Release)
-message("find_library:${protobuf}:done")
+#find_library(protobuf NAMES libprotobuf PATHS ${CMAKE_CURRENT_SOURCE_DIR}/../grpc/build_win64/third_party/protobuf/Release)
+#message("find_library:${protobuf}:done")
+find_library(client_x1 NAMES client_x1 PATHS C:/KSPACE/204_SEASON/go_lab_starter)
+message("find_library:${client_x1}:done")
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin/")
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin/")

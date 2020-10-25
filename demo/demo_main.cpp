@@ -4,6 +4,7 @@
 #include "xyc_utils.h"
 #include "abc_utils.h"
 #include <iostream>
+#include "gbridge.h"
 
 std::string helloString(std::string str)
 {
@@ -24,4 +25,5 @@ int main()
 	for (int v : ivec2) {
 		cout << "From dynamic lib:" << v << endl;
 	}
+	cout << goproca("GO");
 }
