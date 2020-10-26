@@ -10,5 +10,5 @@ add_executable (demo ${HEADER_FILES} ${SRC_FILES})
 # public include directories we will use those link directories when building
 # helloDemo
 target_link_libraries (demo PUBLIC abc)
-target_link_libraries (demo PUBLIC ${client_x1})
+#target_link_libraries (demo PUBLIC ${client_x1})
 target_link_libraries (demo PRIVATE xyc)
